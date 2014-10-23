@@ -1,0 +1,12 @@
+{
+  "name": "ShareCLAF",
+  "version": "0.0.1",
+  "main": "stylesheets/claf.less",
+  "ignore": [
+    "**/*~"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
