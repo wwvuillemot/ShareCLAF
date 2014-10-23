@@ -43,3 +43,35 @@ HTML
 Similarly, we are assuming plain-ole vanilla HTML for templates.  We will need
 to figure out how best to share these between frameworks, as each framework has
 its own syntax for parsing HTML  template directives differently.
+
+Configuration
+========
+
+`/bower.json`
+------------
+
+Create `bower.json` in the root of the project, and add something similar to the
+below.  For now, we have kept it as simple as possible.
+
+     {
+       "name": "ShareCLAF",
+       "version": "0.0.1",
+       "main": "stylesheets/claf.less",
+       "ignore": [
+         "**/*~"
+       ],
+       "dependencies": {
+       },
+       "devDependencies": {
+       }
+     }
+
+CSS
+-----
+
+Create a root directory `/stylesheets` where your `less` files will go.
+
+JavaScript
+------
+
+Create a root directory `/javascripts` where your JavaScript files will go.
