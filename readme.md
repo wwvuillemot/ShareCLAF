@@ -6,8 +6,8 @@ proof of concept on how to share components such as CSS, JS, and even HTML
 templates between different app frameworks using [Bower](http://bower.io).
 
   * **[ShareCLAF](http://github.com/wwvuillemot/ShareCLAF)** This repo
-  * **[ShareRails](http://github.com/wwvuillemot/ShareCLAF)** Describes how to setup Bower with Rails
-  * **[ShareAngularJS](http://github.com/wwvuillemot/ShareCLAF)** Describes how to setup Bower with AngularJS
+  * **[ShareRails](http://github.com/wwvuillemot/ShareRails)** Describes how to setup Bower with Rails
+  * **[ShareAngularJS](http://github.com/wwvuillemot/ShareAngularJS)** Describes how to setup Bower with AngularJS
 
 Motivation
 ======
