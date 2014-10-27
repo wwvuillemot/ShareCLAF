@@ -1,11 +1,13 @@
 {
   "name": "ShareCLAF",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "stylesheets/claf.less",
   "ignore": [
     "**/*~"
   ],
   "dependencies": {
+    "jquery": "~2.0.3",
+    "bootstrap": "~3.0.0"
   },
   "devDependencies": {
   }
