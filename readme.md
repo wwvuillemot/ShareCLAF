@@ -20,6 +20,13 @@ thought it worth a cup of coffee (or two) to see how best to stitch different
 frameworks together using a common look while reducing (eliminating?)
 copy-and-paste.
 
+This repo is just some basic LESS files, along with dependencies on Bootstrap
+v3.0 and jQuery v2.0.3.  In this way, other sites that take this repo as a
+dependency implicitly depend on these packages.  The advantage to this approach
+is the ability to control what version of these packages the other apps use.
+This reduces some of the confusion and collisions that can arise with different
+apps use different versions  of the same package.
+
 Assumptions
 =======
 
@@ -50,7 +57,7 @@ Configuration
 `/bower.json`
 ------------
 
-Create `bower.json` in the root of the project, and add something similar to the
+Create [`bower.json`](bower.json) in the root of the project, and add something similar to the
 below.  For now, we have kept it as simple as possible.
 
      {
@@ -61,6 +68,8 @@ below.  For now, we have kept it as simple as possible.
          "**/*~"
        ],
        "dependencies": {
+         "jquery": "~2.0.3",
+         "bootstrap": "~3.0.0"
        },
        "devDependencies": {
        }
